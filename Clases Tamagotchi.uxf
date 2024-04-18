@@ -1,0 +1,51 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>441</x><y>225</y><w>153</w><h>126</h></coordinates><panel_attributes>/TamagochiAbstracto/
+--
+- tamagotchi : Tamagotchi
+--
++ pegarle : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>63</x><y>207</y><w>171</w><h>108</h></coordinates><panel_attributes>Tamagotchi
+--
+- estado: EstadoTamagotchi
+--
++ darDeComer : void
++ darDeTomar : void
++ hacerleMimos : void
++ pegarle: void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>369</x><y>441</y><w>144</w><h>126</h></coordinates><panel_attributes>EstadoSediento
+--
+
+--
++ darDeComer : void
++ darDeTomar : void
++ hacerleMimos : void
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>522</x><y>441</y><w>144</w><h>126</h></coordinates><panel_attributes>EstadoTriste
+--
+
+--
++ darDeComer : void
++ darDeTomar : void
++ hacerleMimos : void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>675</x><y>441</y><w>144</w><h>126</h></coordinates><panel_attributes>EstadoFeliz
+--
+
+--
++ darDeComer : void
++ darDeTomar : void
++ hacerleMimos : void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>216</x><y>441</y><w>144</w><h>126</h></coordinates><panel_attributes>EstadoHambriento
+--
+
+--
++ darDeComer : void
++ darDeTomar : void
++ hacerleMimos : void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>441</x><y>45</y><w>153</w><h>126</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+/EstadoTamagotchi/
+--
+
+--
+/+ darDeComer : void/
+/+ darDeTomar : void/
+/+ hacerleMimos : void/
+/+ pegarle : void/</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>513</x><y>162</y><w>36</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;70;20;60</additional_attributes></element><element><id>Relation</id><coordinates><x>288</x><y>342</y><w>207</w><h>117</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>210;10;210;40;10;40;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>432</x><y>342</y><w>90</w><h>117</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;80;80;10;80;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>522</x><y>342</y><w>90</w><h>117</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80;80;80;80;110</additional_attributes></element><element><id>Relation</id><coordinates><x>558</x><y>342</y><w>207</w><h>117</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;40;210;40;210;110</additional_attributes></element><element><id>Relation</id><coordinates><x>225</x><y>261</y><w>234</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>10;10;240;10</additional_attributes></element><element><id>Relation</id><coordinates><x>135</x><y>108</y><w>324</w><h>117</h></coordinates><panel_attributes>lt=&lt;-
+m1= 1</panel_attributes><additional_attributes>340;10;10;10;10;110</additional_attributes></element></diagram>
