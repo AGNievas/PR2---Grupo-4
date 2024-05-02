@@ -1,0 +1,63 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>234</x><y>283</y><w>144</w><h>72</h></coordinates><panel_attributes>MCChombos
+--
+
+-
++ calcularPrecio : double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>333</x><y>139</y><w>144</w><h>72</h></coordinates><panel_attributes>/Vendible/
+--
+- precio : double
+- descripcion: String
+-
+/+ calcularPrecio: double/</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>297</x><y>202</y><w>117</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>110;10;110;50;10;50;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>441</x><y>283</y><w>144</w><h>72</h></coordinates><panel_attributes>Producto
+--
+
+-
++ calcularPrecio : double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>279</x><y>400</y><w>144</w><h>99</h></coordinates><panel_attributes>Hamburguesa
+--
+
+-
++ calcularPrecio : double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>441</x><y>400</y><w>144</w><h>99</h></coordinates><panel_attributes>Bebida
+--
+
+-
++ calcularPrecio : double</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>261</x><y>166</y><w>90</w><h>135</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=3</panel_attributes><additional_attributes>10;130;10;10;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>414</x><y>202</y><w>126</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50;120;50;120;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>603</x><y>400</y><w>144</w><h>99</h></coordinates><panel_attributes>Acompanamiento
+--
+
+-
++ calcularPrecio : double</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>342</x><y>346</y><w>189</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>190;10;190;40;10;40;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>346</y><w>189</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;40;190;40;190;60</additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>346</y><w>27</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>571</y><w>153</w><h>117</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+TipoHamburguesa
+--
++ POLLO (double)
++ CON_QUESO(double)
++ SIMPLE(double)
+--
++ TipoHamburguesa(double)
++ getPrecio(): double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>441</x><y>571</y><w>144</w><h>117</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+TipoBebida
+--
++ GASEOSA(double)
++ AGUA_SIN_GAS(double)
++ TE_TILO(double)
+-
++ TipoBebida(double)
++ getPrecio(): double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>603</x><y>571</y><w>171</w><h>117</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+TipoAcompanamiento
+--
++ PAPAS (double)
++ PAPAS_CHEDDAR(double)
++ ENSALADA(double)
+-
++ TipoAcompanamiento(double)
++ getPrecio(): double</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>342</x><y>490</y><w>54</w><h>99</h></coordinates><panel_attributes>lt=&lt;-
+- tipo
+m1= 1</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>490</y><w>54</w><h>99</h></coordinates><panel_attributes>lt=&lt;-
+- tipo
+m1=1</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>675</x><y>490</y><w>54</w><h>99</h></coordinates><panel_attributes>lt=&lt;-
+- tipo
+m1=1</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>333</x><y>22</y><w>144</w><h>72</h></coordinates><panel_attributes>MCChonals
+--
+
+-
++ vender(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>396</x><y>85</y><w>81</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=*
+- productos</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>
