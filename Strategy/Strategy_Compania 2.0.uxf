@@ -1,0 +1,32 @@
+<diagram program="umletino" version="15.1"><zoom_level>11</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>44</x><y>363</y><w>275</w><h>132</h></coordinates><panel_attributes>Empleado
+--
+-sueldoBrutoAnual:double
+-diaIngreso: int
+-nombre: String
+--
++sacarSueldo():double
++cambiarEstrategia(SueldoEstrategia):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>462</x><y>374</y><w>220</w><h>110</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+SueldoEstrategia
+--
+
+--
++sacarSueldo(double):double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>264</x><y>198</y><w>198</w><h>99</h></coordinates><panel_attributes>EstrategiaA
+--
+-diaIngreso: int
+--
++sacarSueldo(double):double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>473</x><y>198</y><w>198</w><h>99</h></coordinates><panel_attributes>EstrategiaB
+--
+-nombre: String
+--
++sacarSueldo(double):double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>682</x><y>198</y><w>198</w><h>99</h></coordinates><panel_attributes>EstrategiaC
+--
+_bono:double=500_
+--
++sacarSueldo(double):double</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>308</x><y>407</y><w>176</w><h>55</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+1
+estrategia</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>44</x><y>198</y><w>209</w><h>99</h></coordinates><panel_attributes>Compania
+--
++pagarSueldos(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>143</x><y>286</y><w>99</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+-empleados
+*
+</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>561</x><y>286</y><w>33</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>561</x><y>286</y><w>242</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;80;10;40;200;40;200;10</additional_attributes></element><element><id>Relation</id><coordinates><x>143</x><y>121</y><w>242</w><h>99</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>200;70;200;10;10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>143</x><y>110</y><w>451</w><h>110</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>390;80;390;10;10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>143</x><y>99</y><w>660</w><h>121</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>580;90;580;10;10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>352</x><y>286</y><w>242</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>200;80;200;40;10;40;10;10</additional_attributes></element></diagram>
